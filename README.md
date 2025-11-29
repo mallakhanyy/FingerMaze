@@ -1,91 +1,46 @@
-# Finger Maze – Hand Tracking Maze Game
+# FingerMaze
 
-Finger Maze is an interactive and visually polished maze game where you guide a red dot through a procedurally generated maze using just your fingertip and a webcam! Powered by MediaPipe for robust hand tracking and OpenCV for sleek visuals, the game offers an intuitive, screen-free navigation experience with instant replay value.
+**Real-time hand-controlled maze game using Mediapipe and OpenCV**
+
+![FingerMaze Preview](path_to_screenshot_or_gif)
+
+---
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Controls](#controls)
+- [Requirements](#requirements)
+- [Contributing](#contributing)
+- [License](#license)
+
+---
+
+## Overview
+
+FingerMaze is an interactive maze game where you control a player dot using your **index finger** detected via your webcam.  
+The project uses **Mediapipe** for hand tracking and **OpenCV** for rendering the maze.  
+Navigate from the start to the goal without hitting walls!
 
 ---
 
 ## Features
 
-- **Webcam Hand Tracking:** Use your fingertip to control the red dot. No mouse or keyboard needed.
-- **Random Mazes:** Each new game generates a unique and challenging maze layout.
-- **Player Trail Effect:** See your recent movement as a glowing trail behind your dot.
-- **Collision Detection:** The red dot stops at walls—navigate carefully!
-- **Timer & Stats:** See your best time and distance from the goal.
-- **Win Celebration & Replay:** Fun celebration animation and easy-to-use replay/exit menu.
-- **Beautiful Visuals:** Glow effects, color themes, and smooth animations.
-- **Responsive Layout:** Maze is always fully visible and camera display scales for your screen.
+- Real-time hand tracking using Mediapipe
+- Randomly generated mazes
+- Smooth movement of the player dot with simple filtering
+- Win detection when the goal is reached
+- Optional gesture recording and training system
 
 ---
 
 ## Installation
 
-**Requirements:**
-- Python 3.7+
-- OpenCV (`opencv-python`)
-- MediaPipe (`mediapipe`)
-- NumPy
+1. Clone the repository:
 
-**Install dependencies:**
 ```bash
-pip install opencv-python mediapipe numpy
-
-## Usage
-
-1. Connect a webcam to your computer.
-2. Run the game:
-    ```bash
-    python src/run_game.py
-    ```
-
-3. Place your hand in front of your webcam. Your index fingertip becomes the yellow target.
-4. Guide the red dot through the maze. It will only move if your fingertip (yellow dot) is close!
-5. Reach the green goal. When you win, choose:
-    - Press `R` to play again (a new maze appears).
-    - Press `Q` to exit.
-
----
-
-## Controls
-
-- **Move dot:** Move your hand/finger in front of the webcam.
-- **Replay:** Press `R` after win.
-- **Exit:** Press `Q` or Esc after win or during play.
-
----
-
-## Customization
-
-- Adjust maze size (`CELL_W`, `CELL_H`) and cell size (`CELL_SIZE`) in `src/run_game.py`.
-- Change `TARGET_PROXIMITY` to fine-tune movement sensitivity.
-- Tweak speed, dot size, or color themes as you like.
-
----
-
-## Acknowledgements
-
-- **MediaPipe** for outstanding hand landmark detection.
-- **OpenCV** for visualization and video capture.
-- AI-generated maze creation logic for varied gameplay.
-- Inspired by classic maze and finger-tracking games.
-
----
-
-## License
-
-This project is for educational and non-commercial use. For other usage, please contact the author.
-
----
-
-## Ideas for Improvement
-
-- Add sound effects or background music
-- Online leaderboard for best times
-- Multiple maze themes and difficulty levels
-- Mobile/Touchscreen version
-
-Pull requests are welcome!
-
----
-
-*Made with ❤️ for the joy of natural, screen-free interaction!*
-```
+git clone https://github.com/mallakhanyy/FingerMaze.git
+cd FingerMaze
