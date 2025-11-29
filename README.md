@@ -1,6 +1,3 @@
-Here’s the complete content you can use for your `README.md` file. To use it, simply copy and paste it into a file named `README.md` in your project’s root directory before pushing to GitHub:
-
-```markdown
 # Finger Maze – Hand Tracking Maze Game
 
 Finger Maze is an interactive and visually polished maze game where you guide a red dot through a procedurally generated maze using just your fingertip and a webcam! Powered by MediaPipe for robust hand tracking and OpenCV for sleek visuals, the game offers an intuitive, screen-free navigation experience with instant replay value.
@@ -37,9 +34,6 @@ Finger Maze is an interactive and visually polished maze game where you guide a 
 **Install dependencies:**
 ```bash
 pip install opencv-python mediapipe numpy
-```
-
----
 
 ## Usage
 
