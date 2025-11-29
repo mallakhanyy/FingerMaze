@@ -17,12 +17,6 @@ Finger Maze is an interactive and visually polished maze game where you guide a 
 
 ---
 
-## Demo
-
-![demo-gif](./demo.gif) *(Tip: Add your gameplay GIF or screenshots here!)*
-
----
-
 ## Installation
 
 **Requirements:**
@@ -95,10 +89,3 @@ Pull requests are welcome!
 
 *Made with ❤️ for the joy of natural, screen-free interaction!*
 ```
-
-**How to use:**  
-1. Copy the above content.
-2. Paste it into a file named `README.md` in your project folder.
-3. Commit and push to GitHub.
-
-If you want a section changed or further tailored, just ask!
