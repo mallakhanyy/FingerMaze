@@ -2,8 +2,6 @@
 
 **Real-time hand-controlled maze game using Mediapipe and OpenCV**
 
-![FingerMaze Preview](path_to_screenshot_or_gif)
-
 ---
 
 ## Table of Contents
